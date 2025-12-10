@@ -15,6 +15,6 @@ services:
       args:
         VITE_API_BASE: /api
     ports:
-      - "8080:80"
+      - "8081:80"
     depends_on:
       - api
